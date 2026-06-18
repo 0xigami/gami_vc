@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Hypercommons · gami.vc</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<meta name="description" content="A Manifesto for a Positive-Sum World">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Global Allied Macro Industries">
+<meta property="og:title" content="Hypercommons">
+<meta property="og:description" content="A Manifesto for a Positive-Sum World">
+<meta property="og:url" content="https://gami.vc/hypercommons.html">
+<meta property="og:image" content="https://gami.vc/preview.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1120">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="GAMI">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hypercommons">
+<meta name="twitter:description" content="A Manifesto for a Positive-Sum World">
+<meta name="twitter:image" content="https://gami.vc/preview.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#1C1C1C;
+    --fg:#FFFFFF;
+    --dim:rgba(255,255,255,.5);
+    --orange:#ED9745;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    background:var(--bg);
+    color:var(--fg);
+    font-family:"Share Tech Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:16px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    min-height:100svh;
+    display:flex;
+    flex-direction:column;
+    padding:clamp(20px,4vw,48px);
+  }
+  header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+  }
+  .logo{display:inline-flex;line-height:0}
+  .logo .icon{height:clamp(40px,9vw,48px);width:auto;display:block}
+  .brand{color:var(--dim);font-size:clamp(.85rem,2.2vw,.95rem)}
+  main{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    padding:clamp(30px,6vw,64px) 0;
+  }
+  .article{max-width:68ch;width:100%}
+  .back{
+    display:inline-block;
+    color:var(--dim);
+    text-decoration:none;
+    font-size:clamp(.85rem,2.2vw,.95rem);
+    margin-bottom:2.2em;
+  }
+  .back:hover{color:var(--fg)}
+  .title{
+    font-size:clamp(1.5rem,5vw,2rem);
+    font-weight:400;
+    letter-spacing:.01em;
+    line-height:1.3;
+    margin-bottom:.5em;
+  }
+  .standfirst{
+    font-size:clamp(1.05rem,3vw,1.2rem);
+    line-height:1.5;
+    margin-bottom:.7em;
+  }
+  .date{
+    color:var(--dim);
+    font-size:clamp(.8rem,2vw,.9rem);
+    margin-bottom:2.4em;
+  }
+  .article p{font-size:clamp(1rem,2.6vw,1.0625rem);margin-bottom:1.2em}
+  .article a:not(.back){
+    color:var(--fg);
+    text-decoration:underline;
+    text-underline-offset:3px;
+    text-decoration-thickness:1px;
+  }
+  .article a:not(.back):hover{color:var(--orange)}
+  .attrib{
+    color:var(--dim);
+    font-style:italic;
+    font-size:clamp(.85rem,2.2vw,.92rem);
+    margin-top:2.2em;
+  }
+  a:focus-visible{outline:1px solid var(--orange);outline-offset:3px}
+  footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:20px;
+    color:var(--dim);
+    font-size:clamp(.85rem,2.2vw,.95rem);
+  }
+  footer a{color:var(--dim);text-decoration:none}
+  footer a:hover{color:var(--fg)}
+  a{transition:color .3s ease}
+  @media (max-width:600px){
+    footer{flex-direction:column;align-items:center;text-align:center;gap:16px}
+  }
+  @media (prefers-reduced-motion: reduce){
+    a{transition:none}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="logo" href="index.html" aria-label="gami.vc home">
+        <svg class="icon" viewBox="0 0 30 44" fill="none" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg">
+          <path d="M28 0H26V2H28V0Z" fill="#FBE877"/>
+          <path d="M24 16H22V18H24V16Z" fill="#FBE877"/>
+          <path d="M24 20H22V22H24V20Z" fill="#FBE877"/>
+          <path d="M30 18H22V20H30V18Z" fill="#FBE877"/>
+          <path d="M30 10H28V12H30V10Z" fill="#FBE877"/>
+          <path d="M30 16H26V18H30V16Z" fill="#FBE877"/>
+          <path d="M30 8H16V10H30V8Z" fill="#FBE877"/>
+          <path d="M28 6H24V8H28V6Z" fill="#FBE877"/>
+          <path d="M30 4H26V6H30V4Z" fill="#FBE877"/>
+          <path d="M26 0H20V2H26V0Z" fill="#FBE877"/>
+          <path d="M28 2H18V4H28V2Z" fill="#FBE877"/>
+          <path d="M20 0H18V2H20V0Z" fill="#ED9745"/>
+          <path d="M18 2H8V4H18V2Z" fill="#ED9745"/>
+          <path d="M26 4H8V6H26V4Z" fill="#ED9745"/>
+          <path d="M30 6H28V8H30V6Z" fill="#ED9745"/>
+          <path d="M24 22H22V26H24V22Z" fill="#ED9745"/>
+          <path d="M24 6H8V8H24V6Z" fill="#ED9745"/>
+          <path d="M16 8H8V10H16V8Z" fill="#ED9745"/>
+          <path d="M28 10H8V12H28V10Z" fill="#ED9745"/>
+          <path d="M30 12H28V14H30V12Z" fill="#ED9745"/>
+          <path d="M26 16H24V18H26V16Z" fill="#ED9745"/>
+          <path d="M26 30H24V32H26V30Z" fill="#ED9745"/>
+          <path d="M26 34H24V36H26V34Z" fill="#ED9745"/>
+          <path d="M24 36H22V38H24V36Z" fill="#ED9745"/>
+          <path d="M22 40H20V42H22V40Z" fill="#ED9745"/>
+          <path d="M22 42H20V44H22V42Z" fill="#ED9745"/>
+          <path d="M24 38H20V40H24V38Z" fill="#ED9745"/>
+          <path d="M26 32H20V34H26V32Z" fill="#ED9745"/>
+          <path d="M12 34H10V36H12V34Z" fill="#ED9745"/>
+          <path d="M12 36H8V38H12V36Z" fill="#ED9745"/>
+          <path d="M10 24H4V26H10V24Z" fill="#ED9745"/>
+          <path d="M10 26H6V36H10V26Z" fill="#ED9745"/>
+          <path d="M30 14H26V16H30V14Z" fill="#ED9745"/>
+          <path d="M22 12H20V14H22V12Z" fill="#ED9745"/>
+          <path d="M22 16H18V18H22V16Z" fill="#ED9745"/>
+          <path d="M12 14H0V16H12V14Z" fill="#ED9745"/>
+          <path d="M12 16H4V18H12V16Z" fill="#ED9745"/>
+          <path d="M22 18H4V22H22V18Z" fill="#ED9745"/>
+          <path d="M16 22H4V24H16V22Z" fill="#ED9745"/>
+          <path d="M22 28H18V30H22V28Z" fill="#ED9745"/>
+          <path d="M28 26H22V30H28V26Z" fill="#ED9745"/>
+          <path d="M30 20H24V26H30V20Z" fill="#ED9745"/>
+          <path d="M14 12H0V14H14V12Z" fill="#ED9745"/>
+          <path d="M24 14H20V16H24V14Z" fill="#ED9745"/>
+        </svg>
+      </a>
+      <span class="brand">gami.vc</span>
+    </header>
+
+    <main>
+      <article class="article">
+        <a class="back" href="index.html">&larr; index</a>
+        <h1 class="title">Hypercommons</h1>
+        <p class="standfirst">A Manifesto for a Positive-Sum World</p>
+        <p class="date">21 Jun, 2023</p>
+
+        <p>In the dawn of a new age, as our society expands and intertwines with the virtual, a proposition is put forward to embrace an unprecedented concept: the hypercommons. A bold exploration of the new frontiers of social, political, and artistic realms, the hypercommons embodies the protocol-built public goods and luxuries, the <a href="https://mirror.xyz/lght.eth/Av_4Vx1U9jDYgDzdrfWQD3FKuXUbMpQ9h5n-KlFz3KQ" target="_blank" rel="noopener">onchain hypercultures</a> they foster, and the positive externalities they engender.</p>
+        <p>The hypercommons is our shared commitment to nourishing the common good through an outpouring of creativity, collaboration, and care. We are at a moment in history where we are free to redefine our public spaces and goods in a radical, unbounded fashion, bridging the gap between scarcity and abundance, between the individual and the collective.</p>
+        <p>Within the realm of hypercommons, the <a href="https://nouns.wtf/" target="_blank" rel="noopener">Nouns DAO</a> ecosystem emerges as a potent force. A community that is not just participatory but transformational. From its inception, it has been a microcosm where public goods and luxuries are crafted, explored, and celebrated. Take, for instance, the <a href="https://gnars.wtf/" target="_blank" rel="noopener">Gnars DAO</a> community’s recent accomplishment: the provision of skateable sculptures installed in Praça XV in Rio De Janeiro, Brazil. A manifestation of the hypercommons, intertwining public utility, aesthetics, and culture in an unparalleled synergy.</p>
+        <p>And yet, the promise of the hypercommons reaches beyond physical art installations. It permeates the digital, as Nouns DAO invests in open-source software, open hardware, educational resources, <a href="https://zora.co/" target="_blank" rel="noopener">minternet</a> archives, onchain communities, protocols and <a href="https://jacob.energy/hyperstructures.html" target="_blank" rel="noopener">hyperstructures</a>. It stretches its tendrils into the academic, funding research that promises to push our understanding of the world and our place within it.</p>
+        <p>The notion of hypercommons transcends the mere filling of funding gaps: it constitutes a redefinition of the public concern. In the words of <a href="https://otherinter.net/research/positive-sum-worlds/" target="_blank" rel="noopener">Other Internet</a>, we are amidst an ambitious “ape into a redefinition of public concern.” The hypercommons, therefore, stands as a testament to the power of community, the potency of shared visions, and the boundless potential of cooperative endeavour.</p>
+        <p>Our commitment to the hypercommons is not a blind leap of faith but a calculated wager on the long game. In this experiment, we trust that our efforts will reflect in the market value of our digital assets. The value we bring to the world through our contributions will, we believe, materialise as an appreciating regard for our digital assets.</p>
+        <p>This is not a plea for passive support but a call to action. The vision of the hypercommons, while grand, is firmly within our reach. Every Noun owner, contributor, critic, or fan is a potential agent of this transformation. Each action, each discussion, each shared moment brings us closer to realising this vision.</p>
+        <p>To quote <a href="https://fundingthecommons.io/" target="_blank" rel="noopener">Funding the Commons</a>, “We envision a world where the incentives that govern human coordination at scale push our species to develop an economy that prioritises public goods above all else. This world has top global talent innovating on public goods, supported by well-developed impact evaluation systems tied to continuous streams of project capital.”</p>
+        <p>Let the idea of hypercommons guide us, inspire us, and unite us. Let it permeate our discussions, inform our decisions, and shape our actions. For the promise of hypercommons is not merely in its potential for a more equitable, more beautiful, and more vibrant world; it lies in our collective journey towards realising it.</p>
+        <p>In the name of hypercommons, we dare to imagine. We dare to create. And above all, we dare to share. For the vision we carry, and the world we wish to shape, is ours. And it is only together, in our unyielding pursuit of the common good, that we can bring it into being. This is our calling. This is our manifesto.</p>
+        <p>The hypercommons is a tapestry woven with threads of innovation, artistry, and altruism. It stands as a beacon, inviting those with the courage and vision to forge a path towards a positive-sum world, where the value created is not hoarded but shared, where every thread contributed adds to the strength and beauty of the whole.</p>
+        <p>As stewards of the hypercommons, we must remain vigilant and true to the ethos that binds us. We shall uphold the principles of transparency, integrity, and inclusion. We shall foster environments that encourage diversity of thought, innovation, and free expression.</p>
+        <p>We must recognise that the hypercommons is as fragile as it is powerful. It demands not only our creativity but our care. It calls for responsible governance, ethical considerations, and a commitment to sustainability. It implores us to think not only of the now but of the generations to come.</p>
+        <p>In this vibrant garden of hypercommons, let us plant seeds of knowledge, art, culture, and technology. Let us nurture them with community, collaboration, and shared values. As these seeds blossom into towering trees and lush canopies, may they be a testament to what we can achieve together.</p>
+        <p>This is an invitation for everyone, from the silent observer to the fervent contributor. The hypercommons cannot thrive on the shoulders of a few; it necessitates the collective strength and will of all. It is the canvas upon which we, as a community, as a species, can paint our boldest dreams and aspirations.</p>
+        <p>We call upon institutions, corporations, and individuals to join this unprecedented endeavour. The hypercommons is more than just a concept; it is a living, evolving entity that thrives on participation. Engage in discussions, contribute resources, share your expertise, and be a part of this transformative journey.</p>
+        <p>As we march onward, let the hypercommons be the anthem that resonates across lands, through the digital sphere, and within the annals of our shared history. Let it be the herald of a new era, an era where the sum of our actions leads to an exponential surge in our shared wealth, of knowledge, culture, and humanity.</p>
+        <p>The path before us is uncharted and fraught with challenges, but it is also paved with infinite possibilities. The hypercommons is not a destination; it is a journey that we embark on together. A journey of discovery, creativity, and communal triumph.</p>
+        <p>Let us seize this moment with both hands and hearts wide open. For in the hypercommons, we find our purpose, our legacy, and our shared destiny.</p>
+        <p>In the spirit of hypercommons, let us forge ahead, united and unbounded.</p>
+        <p class="attrib">// Originally <a href="https://zora.co/collect/eth:0x8479985d60ae6f89e24e12c300452c5e4b89413d/2" target="_blank" rel="noopener">minted</a> on Ethereum.</p>
+      </article>
+    </main>
+
+    <footer>
+      <span>global allied macro industries</span>
+      <a href="https://x.com/gami_vc" target="_blank" rel="noopener">@gami_vc</a>
+    </footer>
+  </div>
+</body>
+</html>
